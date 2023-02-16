@@ -1,2 +1,2 @@
 # AR-Unity
-Augmented Reality using Unity with AR Foundation or Vuforia
+Augmented Reality using Unity and AR Foundation or Vuforia
