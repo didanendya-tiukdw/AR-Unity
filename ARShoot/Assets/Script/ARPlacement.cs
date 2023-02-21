@@ -50,8 +50,8 @@ public class ARPlacement : MonoBehaviour
 
     void UpdatePlacementPose()
     {
-        var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
-
+        //var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
+        var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0f, 0f));
         //var screenCenter = camera.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
 
         var hits = new List<ARRaycastHit>();
